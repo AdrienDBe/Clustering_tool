@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Ping Streamlit app
-        run: curl -s -o /dev/null -w "%{http_code}" https://ton-app.streamlit.app/
+        run: curl -s -o /dev/null -w "%{http_code}" https://clustering-tool.streamlit.app/
